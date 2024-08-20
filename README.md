@@ -20,7 +20,7 @@ The DevContainer is defined by several configuration files:
    - VS Code extensions and settings
    - Commands to run on container creation
 
-2. `.devcontainer/Dockerfile`: Defines the custom Docker image, based on a Node.js image with added Python support.
+2. `.devcontainer/Dockerfile`: Defines the custom Docker image.
 
 3. `.devcontainer/on-create.sh`: A script that runs when the container is created, installing additional packages and configuring git.
 
